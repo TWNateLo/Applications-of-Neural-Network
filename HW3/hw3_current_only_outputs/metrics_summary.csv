@@ -1,0 +1,5 @@
+experiment,source_variant,target_strategy,mae,mse,mape,r2,best_epoch,source_feature_dim,selected_feature_count,source_windows_total,trainable_params,total_params,source_best_epoch
+tl_current_only_freeze_first_lstm_layer,current_only,freeze_first_lstm_layer,14.814258575439453,484.8055725097656,4.039429187774658,0.7734680771827698,1,72.0,72.0,712.0,45020,78300,3.0
+tl_current_only_freeze_all_feature_layers,current_only,freeze_all_feature_layers,18.10076904296875,632.9048461914062,4.852823734283447,0.7042666673660278,6,72.0,72.0,712.0,9660,78300,3.0
+scratch,none,scratch,18.948444366455078,652.2506103515625,5.021084785461426,0.6952271461486816,4,,,,78300,78300,
+tl_current_only_full_finetune,current_only,full_finetune,18.389989852905273,607.304931640625,5.03293514251709,0.7162286043167114,1,72.0,72.0,712.0,78300,78300,3.0

@@ -1,0 +1,17 @@
+[
+  {
+    "config": "baseline64",
+    "best_val_acc": 0.7222222222222222,
+    "checkpoint": "models\\baseline64_best.pth"
+  },
+  {
+    "config": "compact128",
+    "best_val_acc": 0.8333333333333334,
+    "checkpoint": "models\\compact128_best.pth"
+  },
+  {
+    "config": "deeper160",
+    "best_val_acc": 0.75,
+    "checkpoint": "models\\deeper160_best.pth"
+  }
+]
